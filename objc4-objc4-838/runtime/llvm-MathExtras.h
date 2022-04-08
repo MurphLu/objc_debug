@@ -16,6 +16,14 @@
 #ifndef LLVM_SUPPORT_MATHEXTRAS_H
 #define LLVM_SUPPORT_MATHEXTRAS_H
 
+#define UINT64_C(v)  (v ## ULL)
+#define INT64_C(v)   (v ## LL)
+
+typedef unsigned long long uint64_t;
+typedef unsigned int uint32_t;
+typedef unsigned short uint16_t;
+typedef unsigned char uint8_t;
+
 namespace objc {
 
 // NOTE: The following support functions use the _32/_64 extensions instead of
