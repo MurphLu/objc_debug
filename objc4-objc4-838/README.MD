@@ -26,4 +26,14 @@ project 下选择 objc -> Build Settings -> Base SDK 选择 `macOS`
 
 #### 第三个 error `'mach-o/dyld_priv.h' file not found`
 
-继续搜索 `dyld-dyld-940/include/mach-o/dyld_priv.h` 将结果拷贝到 `importedHeaders/mach-o` 下
+继续搜索将结果 `dyld-dyld-940/include/mach-o/dyld_priv.h` 拷贝到 `importedHeaders/mach-o` 下
+
+
+#### 第四个 error `'os/lock_private.h' file not found`
+
+继续搜索将结果 `libplatform-libplatform-273.40.1/private/os/lock_private.h` 拷贝到 `importedHeaders/os` 下
+
+
+#### 第五个 error `'pthread/tsd_private.h' file not found`
+
+继续搜索将结果 `libplatform-libplatform-273.40.1/private/os/lock_private.h` 拷贝到 `importedHeaders/os` 下
