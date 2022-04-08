@@ -22,7 +22,8 @@ project 下选择 objc -> Build Settings -> Base SDK 选择 `macOS`
 
 #### 第二个 error `'sys/reason.h' file not found`
 
-在我们下载好的源文件目录下使用 `find . -name "reason.h"`,将搜到的文件拷贝到 `importedHeaders` 下的 `sys` 文件夹下
+在我们下载好的源文件目录下使用 `find . -name "reason.h"`,将搜到的文件 `xnu-xnu-8019.41.5/bsd/sys/reason.h` 拷贝到 `importedHeaders/sys` 文件夹下
 
+#### 第三个 error `'mach-o/dyld_priv.h' file not found`
 
-
+继续搜索 `dyld-dyld-940/include/mach-o/dyld_priv.h` 将结果拷贝到 `importedHeaders/mach-o` 下
